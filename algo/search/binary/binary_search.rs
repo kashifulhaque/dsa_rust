@@ -1,24 +1,3 @@
-fn main() {
-    let mut arr: Vec<i32> = Vec::new();
-    arr.push(3);
-    arr.push(6);
-    arr.push(8);
-    arr.push(12);
-    arr.push(14);
-    arr.push(17);
-    arr.push(25);
-    arr.push(29);
-    arr.push(31);
-    arr.push(36);
-    arr.push(42);
-    arr.push(47);
-    arr.push(53);
-    arr.push(55);
-    arr.push(64);
-
-    println!("Result: {}", r_search(&arr, 31));
-}
-
 // Binary Search using Iteration
 fn search(arr: &Vec<i32>, item: i32) -> i32 {
     if arr.len() == 0 {
