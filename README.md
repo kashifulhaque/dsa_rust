@@ -4,4 +4,4 @@
 
 ### Algorithms:
 
-• [Binary Search (iteration)](/algo/search/binary/binary_search.rs)
+• [Binary Search (iterative + recursive)](/algo/search/binary/binary_search.rs)
