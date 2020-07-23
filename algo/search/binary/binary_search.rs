@@ -1,7 +1,7 @@
 // Binary Search using Iteration
 fn search(arr: &Vec<i32>, item: i32) -> i32 {
     if arr.len() == 0 {
-        return -1;
+        -1
     }
 
     let mut l: usize = 0;
@@ -18,5 +18,5 @@ fn search(arr: &Vec<i32>, item: i32) -> i32 {
         }
     }
 
-    return -1;
+    -1
 }
