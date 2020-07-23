@@ -10,7 +10,7 @@ fn search(arr: &Vec<i32>, item: i32) -> i32 {
         let mid: usize = (l + h) / 2;
 
         if arr[mid] == item {
-            return mid as i32;
+            mid as i32
         } else if item < arr[mid] {
             h = mid - 1;
         } else {
