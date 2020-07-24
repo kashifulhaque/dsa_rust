@@ -40,9 +40,9 @@ fn helper(arr: &Vec<i32>, item: i32, l: usize, h: usize) -> i32 {
         }
 
         if item < arr[mid] {
-            helper(arr, item, l, mid - 1)
+            helper(&arr, item, l, mid - 1)
         } else {
-            helper(arr, item, mid + 1, h)
+            helper(&arr, item, mid + 1, h)
         }
     }
 }
